@@ -7,8 +7,17 @@
   <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <depend>rclcpp</depend>
-  <depend>moveit_ros_planning_interface</depend>
-  <depend>geometry_msgs</depend>
-  <depend>moveit_visual_tools</depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>moveit_ros_planning</exec_depend>
+  <export>                               
+   <build_type>ament_cmake</build_type> 
+  </export> 
 </package>
